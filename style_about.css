@@ -1,0 +1,61 @@
+h1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 70pt;
+    position: top;
+    text-align: center;
+        color: black;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke: 5px;}
+ 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    align-items: center;
+  }
+ 
+  li {
+    float: left;
+  }
+ 
+  li a {
+    display: block;
+    color: gray;
+    text-align: center;
+    padding: 30px 100px;
+    text-decoration: none;
+    font-size: 30pt;
+    width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+ 
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #d3c7c7;
+}
+ 
+#rectangle{
+    width:auto;
+    height:5px;
+    background:black;
+}
+ 
+.title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container{
+    font-family: Geneva, Tahoma, sans-serif;
+    font-size: xxx-large;
+    position: relative;
+    text-align: center;
+    }
+ 
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
